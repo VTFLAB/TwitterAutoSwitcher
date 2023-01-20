@@ -10,7 +10,12 @@ Twitterのホーム画面を表示した際に自動で「フォロー中」タ�
 ## Installation
 
 リポジトリをクローン、もしくはダウンロード  
-「パッケージ化されていない拡張機能を読み込む」からクローンまたはダウンロードしたディレクトリを読み込む
+[ZIPリンク](https://github.com/VTFLAB/TwitterAutoSwitcher/archive/refs/heads/master.zip)  
+
+[chrome://extensions/](chrome://extensions/)  
+
+を開き、右上の「デベロッパー モード」を有効にしてから  
+「パッケージ化されていない拡張機能を読み込む」ボタンでダウンロードかクローンしたディレクトリ読み込む　　
 
 ## License
 
