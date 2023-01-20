@@ -1,0 +1,15 @@
+{
+  "name": "Twitter Auto Switcher",
+  "description": "Twitterのホームを自動でフォロー中に切り替えるやつ",
+  "author": "VTF",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/home"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
