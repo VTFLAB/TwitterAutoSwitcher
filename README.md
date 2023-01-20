@@ -1,6 +1,7 @@
 # Twitter Auto Switcher
 
 Twitterのホームを自動でフォロー中に切り替えるChrome拡張機能
+即席であまりテストしてない
 
 ## Features
 
