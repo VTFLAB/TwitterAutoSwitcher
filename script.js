@@ -13,6 +13,8 @@ async function waitForElement(tabSelectName) {
     const interval = setInterval(() => {
       // 対象(フォロー中タブ aタグ)
       const target = document.querySelector(tabSelectName);
+      // 要素が見つからない場合を考慮
+      if (!target) return;
       // 対象のスタイル
       const elementStyle = window.getComputedStyle(target);
       // 対象が存在していて、かつポインタイベントがnone以外の場合
